@@ -17,6 +17,7 @@ public class Calculadora {
 
         } catch (Exception e) {
             e.printStackTrace();
+            System.out.println("Excepcion matematica");
         }
         return resultado;
     }
