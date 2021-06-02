@@ -21,4 +21,8 @@ public class Calculadora {
     public double tangente(double x) {
         return Math.tan(x);
     }
+
+    public double exponencial(double x) {
+        return Math.exp(x);
+    }
 }
