@@ -1,13 +1,25 @@
 package wsCalculadora;
 
 public class Calculadora {
-    public double suma(double x, double y)
-    {
+    public double suma(double x, double y) {
         return x + y;
     }
 
     public double multiplica(double x, double y) {
         return x * y;
+    }
+
+    // Division
+    public double divide(double x, double y) {
+        double resultado = 0;
+        try {
+            resultado = x / y;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Excepcion matematica");
+        }
+        return resultado;
     }
 
     public double seno(double x) {
