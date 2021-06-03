@@ -41,4 +41,8 @@ public class Calculadora {
     public double exponencial(double x) {
         return Math.exp(x);
     }
+
+    public double logaritmo(double x) {
+        return Math.log(x);
+    }
 }

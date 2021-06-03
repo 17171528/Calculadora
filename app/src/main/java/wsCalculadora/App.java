@@ -27,5 +27,8 @@ public class App {
 
         System.out.println("e^1="+c.exponencial(1));
         System.out.println("e^5="+c.exponencial(5));
+
+        System.out.println("Log(10)="+c.logaritmo(10));
+        System.out.println("Log(1)="+c.logaritmo(1));
     }
 }
