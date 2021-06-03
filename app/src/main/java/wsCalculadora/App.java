@@ -15,6 +15,10 @@ public class App {
         System.out.println("CALCULADORA");
         System.out.println("===========");
         System.out.println("2+3="+ c.suma(2, 3));
+
+        System.out.println("3-2="+c.resta(3,2));
+        System.out.println("2-3="+c.resta(2,3));
+
         System.out.println("2*3=" + c.multiplica(2, 3));
         System.out.println("3.4 * 4.5=" + c.multiplica(3.4,4.5));
 
