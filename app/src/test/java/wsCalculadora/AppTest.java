@@ -45,4 +45,12 @@ public class AppTest {
         assertTrue(c.exponencial(1)==Math.exp(1));
         assertTrue(c.exponencial(5)==Math.exp(5));
     }
+
+    @Test public void testDivision(){
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.divide(10, 10) == 10/10);
+        assertTrue(c.divide(5, 2) == 5/2);
+    }
+
 }
