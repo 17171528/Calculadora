@@ -6,6 +6,8 @@ package wsCalculadora;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import org.checkerframework.checker.units.qual.C;
+
 public class AppTest {
     @Test public void testSuma() {
         Calculadora c = new Calculadora();
@@ -52,6 +54,12 @@ public class AppTest {
 
         assertTrue(c.divide(10.0, 10.0) == (double)10/10);
         assertTrue(c.divide(5.0, 2.0) == (double)5/2);
+    }
+    
+    @Test public void testResta(){
+        Calculadora c = new Calculadora();
+        assertTrue(c.resta(30,10.2) == 19.8);
+        assertTrue(c.resta(1,2) == -1);
     }
 
 }
