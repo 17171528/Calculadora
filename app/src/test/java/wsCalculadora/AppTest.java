@@ -6,8 +6,6 @@ package wsCalculadora;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import org.checkerframework.checker.units.qual.C;
-
 public class AppTest {
     @Test public void testSuma() {
         Calculadora c = new Calculadora();
