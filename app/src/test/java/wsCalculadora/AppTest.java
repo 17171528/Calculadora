@@ -49,8 +49,9 @@ public class AppTest {
     @Test public void testDivision(){
         Calculadora c = new Calculadora();
 
-        assertTrue(c.divide(10, 10) == 10/10);
-        assertTrue(c.divide(5, 2) == 5/2);
+
+        assertTrue(c.divide(10.0, 10.0) == (double)10/10);
+        assertTrue(c.divide(5.0, 2.0) == (double)5/2);
     }
 
 }
