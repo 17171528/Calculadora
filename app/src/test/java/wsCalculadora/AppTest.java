@@ -46,6 +46,13 @@ public class AppTest {
         assertTrue(c.exponencial(5)==Math.exp(5));
     }
 
+    @Test public void testLogaritmo() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.logaritmo(1)==Math.log(1));
+        assertTrue(c.logaritmo(10)==Math.log(10));
+    }
+
     @Test public void testDivision(){
         Calculadora c = new Calculadora();
 
