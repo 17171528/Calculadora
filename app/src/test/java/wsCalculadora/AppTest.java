@@ -49,8 +49,8 @@ public class AppTest {
     @Test public void testLogaritmo() {
         Calculadora c = new Calculadora();
 
-        assertTrue(c.logaritmo(1)==Math.log(1));
-        assertTrue(c.logaritmo(10)==Math.log(10));
+        assertTrue(c.logaritmo(1)==Math.log10(1));
+        assertTrue(c.logaritmo(10)==Math.log10(10));
     }
 
     @Test public void testDivision(){
