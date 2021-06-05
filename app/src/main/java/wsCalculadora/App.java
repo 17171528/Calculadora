@@ -19,7 +19,9 @@ public class App {
         System.out.println("30-10.2="+ c.resta(30, 10.2));
         System.out.println("2*3=" + c.multiplica(2, 3));
         System.out.println("3.4 * 4.5=" + c.multiplica(3.4,4.5));
-        System.out.println("69 / 3=" + c.divide(69, 3));
+        System.out.println("5 / 2=" + c.divide(5, 2));
+        System.out.println("10 / 10=" + c.divide(10, 10));
+
 
         System.out.println("Sen(0)="+c.seno(0));
         System.out.println("Cos(0)="+c.coseno(0));
