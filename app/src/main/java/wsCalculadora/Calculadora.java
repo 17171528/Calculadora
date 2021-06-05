@@ -43,6 +43,6 @@ public class Calculadora {
     }
 
     public double logaritmo(double x) {
-        return Math.log(x);
+        return Math.log10(x);
     }
 }
